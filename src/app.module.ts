@@ -33,6 +33,9 @@ import { CargoFilesModule } from './modules/cargo-files/cargo-files.module';
 import { CustomsModule } from './modules/customs/customs.module';
 import { PortModule } from './modules/port/port.module';
 import { AgdModule } from './modules/agd/agd.module';
+import { WmsModule } from './modules/wms/wms.module';
+import { TransportModule } from './modules/transport/transport.module';
+import { TradeModule } from './modules/trade/trade.module';
 import { FilesModule } from './modules/files/files.module';
 import { NotificationsModule } from './modules/notifications/notifications.module';
 import { HealthModule } from './modules/health/health.module';
@@ -82,6 +85,9 @@ import { HealthModule } from './modules/health/health.module';
     CustomsModule,
     PortModule,
     AgdModule,
+    WmsModule,
+    TransportModule,
+    TradeModule,
     FilesModule,
     NotificationsModule,
     HealthModule,
