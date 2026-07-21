@@ -36,6 +36,7 @@ import { AgdModule } from './modules/agd/agd.module';
 import { WmsModule } from './modules/wms/wms.module';
 import { TransportModule } from './modules/transport/transport.module';
 import { TradeModule } from './modules/trade/trade.module';
+import { AdminModule } from './modules/admin/admin.module';
 import { FilesModule } from './modules/files/files.module';
 import { NotificationsModule } from './modules/notifications/notifications.module';
 import { HealthModule } from './modules/health/health.module';
@@ -88,6 +89,7 @@ import { HealthModule } from './modules/health/health.module';
     WmsModule,
     TransportModule,
     TradeModule,
+    AdminModule,
     FilesModule,
     NotificationsModule,
     HealthModule,
